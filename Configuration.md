@@ -93,7 +93,7 @@ How long to wait when checking if a player's data exists on any server. This is 
 ### Standard Setup (Default):
 ```json
 {
-  "threadPoolSize": 4,
+  "threadPoolSize": 8,
   "useCachedThreadPool": false,
   "timeouts": {
     "firstTimeConnection": 2000,
@@ -107,7 +107,7 @@ How long to wait when checking if a player's data exists on any server. This is 
 ### Fast Setup (Low Latency Network):
 ```json
 {
-  "threadPoolSize": 8,
+  "threadPoolSize": 4,
   "useCachedThreadPool": true,
   "timeouts": {
     "firstTimeConnection": 1000,
