@@ -107,7 +107,7 @@ How long to wait when checking if a player's data exists on any server. This is 
 ### Fast Setup (Low Latency Network):
 ```json
 {
-  "threadPoolSize": 4,
+  "threadPoolSize": 8,
   "useCachedThreadPool": true,
   "timeouts": {
     "firstTimeConnection": 1000,
