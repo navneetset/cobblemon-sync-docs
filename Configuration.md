@@ -26,7 +26,7 @@ The Redis configuration is stored in `config/cobblemon-sync/redis.json`:
 |--------|------|---------|-------------|
 | `url` | String | `redis://:SecurePassword!@localhost:29999` | Redis connection URL |
 | `enableDebugLogs` | Boolean | `false` | Whether to enable detailed debug logging |
-| `threadPoolSize` | Integer | `4` | Number of threads in the worker pool for sync operations |
+| `threadPoolSize` | Integer | `8` | Number of threads in the worker pool for sync operations |
 | `maxPoolConnections` | Integer | `128` | Maximum Redis connections in the connection pool |
 | `useCachedThreadPool` | Boolean | `false` | Whether to use an auto-scaling cached thread pool instead of fixed size |
 | `timeouts` | Object | See below | Contains various timeout settings in milliseconds |
